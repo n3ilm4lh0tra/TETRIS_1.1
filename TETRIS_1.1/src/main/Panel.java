@@ -45,7 +45,7 @@ public class Panel extends JPanel implements Runnable{
             }
         }
     }
-    private void update(){
+    public void update(){
         if(!KeyH.pausePressed && !m.gameOver) {
             m.update();
         }
